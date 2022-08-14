@@ -1,1 +1,1 @@
-aws s3 cp --recursive --acl public-read ./build s3://nugget-bucket/
+aws s3 cp --recursive ./build s3://nugget-bucket/
